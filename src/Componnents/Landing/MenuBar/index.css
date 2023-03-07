@@ -1,0 +1,34 @@
+.menubar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.menubar .menu-header {
+  height: 100px ;
+}
+.menubar .menu-header img {
+  width: 120px;
+  height: 120px;
+}
+.menubar .menu {
+  color: #9b9b97;
+  font-family: "Roboto Light";
+  margin-top: 30px;
+}
+.menubar .menu .ant-menu-item {
+  height: 52px;
+}
+.menubar .login-out button {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  background: #6C63FF;
+  color: #ffffff;
+}
+.menubar .login-out button:hover {
+  cursor: pointer;
+  border: 3px solid #407AFF;
+}
+/*# sourceMappingURL=index.css.map */

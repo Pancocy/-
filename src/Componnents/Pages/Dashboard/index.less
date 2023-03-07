@@ -1,0 +1,51 @@
+.dashboard{
+  height: 100%;
+  .main-header{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    .main-header-items{
+      height: 100%;
+      width: 30%;
+      background: #ffffff;
+      border-radius: 30px;
+      color: #1D1A57;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      .toolTip{
+        width: 100px;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .chart{
+        width: 210px;
+        .location ,.temperature{
+          height: 50%;
+          display: flex;
+          justify-content: center;
+        }
+        .location{
+          align-items: center;
+        }
+
+      }
+      &:hover{
+        box-shadow: 7px 7px 3px #adadad;
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+
+  }
+  .main-content{
+    height: calc(100% - 230px);
+    margin-top: 30px;
+    padding: 15px 10px;
+    background: #fff;
+    border-radius: 30px;
+  }
+}

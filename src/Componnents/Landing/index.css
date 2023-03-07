@@ -1,0 +1,32 @@
+.landing {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing .main .layout-container {
+  width: 95vw;
+  height: 90vh ;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.landing .main .layout-container .content {
+  background: #f6f9fe;
+  border: 5px solid #fff;
+  border-left: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.landing .main .layout-container .content header {
+  background: #f6f9fe;
+  border-top-right-radius: 30px;
+  height: 100px;
+  padding-top: 20px;
+}
+.landing .main .layout-container .slider {
+  background: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 20px 10px ;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,108 @@
+.login {
+  background: #EFEFEF;
+  background: url("../../../src/assets/images/login.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.login .main {
+  width: 400px;
+  height: 600px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px 30px;
+  position: absolute;
+  right: 100px;
+}
+.login .main .login-header {
+  text-align: center;
+}
+.login .main .login-header .bell {
+  width: 80px;
+  height: 80px ;
+}
+.login .main .login-header h3 {
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+.login .main .login-header p {
+  color: #adadad;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+}
+.login .main .login-content {
+  height: 260px;
+  padding: 25px 30px 0 30px;
+}
+.login .main .login-content .select {
+  height: 20px;
+}
+.login .main .login-content p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
+.login .main .login-content .pass {
+  margin-top: 15px;
+}
+.login .main .login-content .pass input {
+  position: relative;
+  outline: none !important;
+  margin-top: 0 !important;
+}
+.login .main .login-content .pass .ant-input-affix-wrapper {
+  padding: 0;
+  align-items: center;
+  border: none;
+  outline: none;
+  height: 44px;
+  margin-top: 15px;
+}
+.login .main .login-content .pass .ant-input-suffix {
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  right: 30px;
+}
+.login .main .login-content .admin input,
+.login .main .login-content .pass input {
+  height: 40px;
+  width: -webkit-fill-available;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 0 25px;
+  background: #f7f7f7;
+  outline: #E7392F;
+}
+.login .main .login-content .select .tips {
+  font-size: 12px;
+  font-weight: 600;
+}
+.login .main .login-content .login-footer {
+  margin-top: 40px;
+}
+.login .main .login-content .login-footer button {
+  height: 50px;
+  width: -webkit-fill-available;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: #000;
+  color: #fff;
+}
+.successTip .ant-message-notice-content {
+  border-radius: 25px;
+  background-color: #21c35c;
+}
+.errorTip .ant-message-notice-content {
+  border-radius: 25px;
+  background-color: #f07d7d;
+}
+/*# sourceMappingURL=index.css.map */

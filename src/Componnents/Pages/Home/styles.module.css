@@ -1,0 +1,68 @@
+.home{
+    height: 100%;
+}
+.container{
+    position: static !important;
+    border-radius: 30px;
+}
+.container::-webkit-scrollbar { width: 0 !important }
+.container > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    pointer-events: none;
+    justify-content: start !important;
+    font-family: 'Kanit', sans-serif;
+    line-height: 0;
+    text-transform: uppercase;
+}
+
+.number {
+    color: #fff;
+}
+.number div{
+    height: 260px;
+    width: 400px;
+}
+
+.number span{
+    font-size: 100px;
+}
+.number p{
+    font-size: 26px;
+}
+.number span {
+    display: inline-block;
+    position: relative;
+}
+
+.slopeBegin {
+    background-color: #c7dff5;
+    clip-path: polygon(20% 0, 70% 0, 50% 100%, 0% 100%);
+}
+
+.slopeEnd {
+    clip-path: polygon(70% 0, 100% 0, 80% 100%, 50% 100%);
+}
+
+.slopeBegin,
+.slopeEnd {
+    position: absolute;
+    width: 170%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.pink {
+    background: linear-gradient(to right, #fafafa 0%, #dcd8d8 100%);
+}
+
+.teal {
+    background: linear-gradient(to right, #d5d5d5 0%, #abda98 100%);
+}
+
+.tomato {
+    background: linear-gradient(to right, #918580 0%, #8276bd 100%);
+}

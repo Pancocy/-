@@ -1,0 +1,18 @@
+.phpto01{
+    background: url("../../../../src/assets/video/map.apng")  no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slider21{
+    background: #000000;
+}
+.phpto11{
+    background: url("../../../../src/assets/video/sport.png") no-repeat;
+    margin-left: 30px;
+
+}
+.phpto21{
+    background: url("../../../../src/assets/video/heart.png") no-repeat;
+    background-size: 260px 260px;
+    margin-left: 50px;
+}

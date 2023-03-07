@@ -1,0 +1,26 @@
+.physical-index {
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.physical-index .model-one {
+  width: 100% !important;
+  height: 500px !important;
+}
+.physical-index .main-content {
+  height: 100%;
+  display: flex;
+}
+.physical-index .main-content .main-content-info {
+  padding: 25px;
+  color: #9b9b97;
+  width: 400px;
+  height: 100%;
+  background: #C7DFF5;
+  border-radius: 30px;
+}
+.physical-index .main-content .main-content-model {
+  height: 100%;
+  width: calc(100% - 400px);
+}
+/*# sourceMappingURL=index.css.map */

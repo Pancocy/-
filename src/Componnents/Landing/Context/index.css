@@ -1,0 +1,12 @@
+.context {
+  height: 100%;
+}
+.context section,
+.context main {
+  height: 100%;
+  background: none;
+}
+.context main {
+  padding: 15px 45px;
+}
+/*# sourceMappingURL=index.css.map */

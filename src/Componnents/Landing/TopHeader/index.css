@@ -1,0 +1,86 @@
+.top-header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-header .search-form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.top-header .search-form input {
+  border: none;
+}
+.top-header .search-form .ant-select-selector {
+  width: 120px;
+  border: none !important;
+}
+.top-header .userInfo {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-header .userInfo > div {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+.top-header .userInfo .account-level {
+  background: #407aff;
+  width: 120px;
+  border-radius: 16px;
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.top-header .userInfo .account-level span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.top-header .userInfo .account-level p {
+  color: #fff;
+}
+.top-header .userInfo .notifications {
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #ffffff;
+  font-size: 20px;
+  line-height: 20px;
+}
+.top-header .userInfo .user {
+  width: 140px;
+  justify-content: space-around;
+}
+.top-header .userInfo .user li {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #C7DFF5;
+  font-size: 20px;
+  line-height: 20px;
+  border: 1px solid tomato;
+}
+.top-header .userInfo .user li img {
+  width: 40px;
+  height: 40px;
+}
+.top-header .userInfo .user p {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+/*# sourceMappingURL=index.css.map */
